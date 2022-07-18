@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress - 6.0.x - Development\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-07-18 01:53+0900\n"
+"PO-Revision-Date: 2022-07-18 02:23+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -967,7 +967,7 @@ msgstr "&#8220;スラッグ&#8221; は URL に適した形式の名前です。�
 
 #: wp-includes/class-wp-taxonomy.php:607
 msgid "The name is how it appears on your site."
-msgstr "サイト上に表示される名前。"
+msgstr "サイト上に表示される名前です。　入力する必要があります。"
 
 #: wp-includes/taxonomy.php:215
 msgid "Template Part Area"
