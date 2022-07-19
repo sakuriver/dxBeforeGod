@@ -2,18 +2,20 @@
 # This file is distributed under the same license as the WordPress - 6.0.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-19 09:28:15+0000\n"
+"Project-Id-Version: WordPress - 6.0.x - Development - Administration\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2022-07-20 02:52+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.0-alpha.1\n"
-"Language: ja_JP\n"
-"Project-Id-Version: WordPress - 6.0.x - Development - Administration\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. translators: Default start of the week. 0 = Sunday, 1 = Monday.
 #: wp-admin/includes/schema.php:409
-#, gp-priority: high
 msgctxt "start of week"
 msgid "1"
 msgstr "1"
@@ -23,14 +25,12 @@ msgstr "1"
 #. https://www.php.net/manual/en/timezones.php for all timezone strings
 #. supported by PHP.
 #: wp-admin/includes/schema.php:393
-#, gp-priority: high
 msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "Asia/Tokyo"
 
 #: wp-admin/includes/media.php:1725 wp-admin/upgrade.php:74
 #: wp-admin/upgrade.php:154
-#, gp-priority: high
 msgid "Continue"
 msgstr "次へ"
 
@@ -9466,7 +9466,7 @@ msgstr "WordPress.org でプラグインをお気に入り (favorite) として�
 
 #: wp-admin/includes/dashboard.php:2002
 msgid "Welcome to WordPress!"
-msgstr "WordPress へようこそ !"
+msgstr "カスタマイズ本部へようこそ !"
 
 #: wp-admin/includes/dashboard.php:395
 msgid "Search engines discouraged"
