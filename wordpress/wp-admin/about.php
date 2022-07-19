@@ -49,7 +49,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 							'<strong>Version %1$s</strong> addressed %2$s bugs.',
 							31
 						),
-						'6.0.1',
+						'6.0.0',
 						number_format_i18n( 31 )
 					);
 					?>
