@@ -75,7 +75,7 @@ endif;
 define('OP_ADMIN_LIST_EYECATCH_VISIBLE', 'admin_list_eyecatch_visible');
 if ( !function_exists( 'is_admin_list_eyecatch_visible' ) ):
 function is_admin_list_eyecatch_visible(){
-  return get_theme_option(OP_ADMIN_LIST_EYECATCH_VISIBLE, 1);
+  return get_theme_option(OP_ADMIN_LIST_EYECATCH_VISIBLE, 0);
 }
 endif;
 
@@ -91,7 +91,7 @@ endif;
 define('OP_ADMIN_LIST_WORD_COUNT_VISIBLE', 'admin_list_word_count_visible');
 if ( !function_exists( 'is_admin_list_word_count_visible' ) ):
 function is_admin_list_word_count_visible(){
-  return get_theme_option(OP_ADMIN_LIST_WORD_COUNT_VISIBLE, 1);
+  return get_theme_option(OP_ADMIN_LIST_WORD_COUNT_VISIBLE, 0);
 }
 endif;
 
@@ -99,7 +99,7 @@ endif;
 define('OP_ADMIN_LIST_PV_VISIBLE', 'admin_list_pv_visible');
 if ( !function_exists( 'is_admin_list_pv_visible' ) ):
 function is_admin_list_pv_visible(){
-  return get_theme_option(OP_ADMIN_LIST_PV_VISIBLE, 1);
+  return get_theme_option(OP_ADMIN_LIST_PV_VISIBLE, 0);
 }
 endif;
 

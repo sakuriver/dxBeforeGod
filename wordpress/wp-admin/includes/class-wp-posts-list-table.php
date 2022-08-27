@@ -644,6 +644,9 @@ class WP_Posts_List_Table extends WP_List_Table {
 
 		$posts_columns['cb'] = '<input type="checkbox" />';
 
+
+		$posts_columns['post-id'] = "";
+
 		/* translators: Posts screen column name. */
 		$posts_columns['title'] = _x( 'Title', 'column name' );
 
