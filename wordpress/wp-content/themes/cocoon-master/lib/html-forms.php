@@ -420,7 +420,17 @@ function generate_the_site_logo_tag($is_header = true){
     $site_logo_text = apply_filters('footer_site_logo_text', $site_logo_text);
   }
   $logo_before_tag = '<'.$tag.' class="logo'.$class.'"><a href="'.esc_url($home_url).'" class="site-name site-name-text-link" itemprop="url"><span class="site-name-text" itemprop="name about">';
-  $logo_after_tag = '</span></a></'.$tag.'>';
+
+  $menu_links = array(
+      array("title" => "php", "url" => "http://royal-yame-0173.itigo.jp/wordpress/tag/php/"),
+      array("title" => "rust", "url" => "http://royal-yame-0173.itigo.jp/wordpress/tag/rust/"),
+  );
+  // todo menu DBを拡張や追加できるかは見る
+  $logo_after_tag = '</span></a></'.$tag.'><ul  style="list-style-type: none;background-color:#f5f6f7">';
+  foreach ($menu_links as $menu_link) {
+    $logo_after_tag .= '<li style="display:inline-block;width:100px;font-size:28px;"><a href="' . $menu_link["url"] . '">' . $menu_link["title"]  .  '</a></li>';
+  }
+  $logo_after_tag .= '</div>';
   if ($logo_url) {
     $site_logo_tag = '<img class="site-logo-image '.$img_class.'" src="'.$logo_url.'" alt="'.esc_attr($site_logo_text).'"'.$width_attr.$height_attr.'>';
   } else {
